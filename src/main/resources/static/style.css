@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #194a81;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: rgb(26, 209, 96);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.total-box {
+    text-align: center;
+    background: #8f28ca;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.total-box p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.expense-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.expense-form input {
+    padding: 10px;
+    flex: 1;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+th {
+    background: #fd1717;
+}
